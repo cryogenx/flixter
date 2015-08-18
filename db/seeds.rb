@@ -23,7 +23,12 @@ Lesson.create!([
   {title: "Basic Ruby Syntax", subtitle: "common syntax cheatsheet", section_id: 1, video: nil, row_order: -6291455}
 ])
 Section.create!([
-  {title: "New Beginnings", course_id: 1},
-  {title: "Html 5", course_id: 3},
-  {title: "CSS", course_id: 3}
+  {title: "New Beginnings", course_id: 1, row_order: nil},
+  {title: "Html 5", course_id: 3, row_order: nil},
+  {title: "CSS", course_id: 3, row_order: nil},
+  {title: "Section 0", course_id: 2, row_order: 0},
+  {title: "Section 1", course_id: 2, row_order: 4194304},
+  {title: "Section 2", course_id: 2, row_order: 6291456},
+  {title: "Section 3", course_id: 2, row_order: 7340032},
+  {title: "Section 4", course_id: 2, row_order: -4194303}
 ])

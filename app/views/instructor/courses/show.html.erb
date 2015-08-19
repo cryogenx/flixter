@@ -37,12 +37,12 @@
   <h1 class="text-center"><%= current_course.title %></h1>
   <%= image_tag current_course.image, :class => 'img-responsive' %>
   <br />
-  <%= link_to 'Preview As Student...', course_path(current_course), :class => 'btn btn-warning pull-right' %>
+  <%= link_to 'Preview As Student...', course_path(current_course), :class => 'btn btn-warning pull-right preview-button' %>
   <br class="clr" />
 
   <div class="text-center">
     <!-- Button trigger modal -->
-    <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#newSectionModal">
+    <button class="btn btn-primary btn-lg new-section-button" data-toggle="modal" data-target="#newSectionModal">
       Add a new section...
     </button>
   </div>
@@ -69,7 +69,7 @@
                 <span class="glyphicon glyphicon-option-vertical"></span>
               </div>
               <div class="col-xs-11 text-center">
-                <p>
+                <p class="lesson_title">
                   <b><%= lesson.title %></b>
                 </p>
                 <p>

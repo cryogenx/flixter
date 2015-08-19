@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6, .navbar {
   color:white;
   font-family: "Helvetica Neue",Helvetica;
   font-weight:100;
-  font-weight: 15px;
+  font-size: 15px;
 }
 
 .lesson a b {
@@ -117,6 +117,7 @@ ul .header .glyphicon {
   border-color: black;
   padding: 20px;
   margin:20px;
+  background-color: #eee;
 }
 
 .lessons li {
@@ -129,6 +130,10 @@ ul .header .glyphicon {
   font-size:15px;
 }
 
+ul.lessons {
+  padding-left: 0px;
+}
+
 .lessons li b {
   font-size:25px;
   font-weight: 100;
@@ -136,4 +141,20 @@ ul .header .glyphicon {
 
 .lessons li p {
   margin:0;
+}
+
+.lesson_title {
+  border-bottom: 2px solid #555;
+}
+
+.new-lesson-button {
+  font-family: "Helvetica Neue",Helvetica;
+}
+
+.new-section-button {
+  font-family: "Helvetica Neue",Helvetica;
+}
+
+.preview-button {
+  font-family: "Helvetica Neue",Helvetica;
 }

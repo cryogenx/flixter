@@ -3,9 +3,9 @@ Course.create!([
   {id: 2, title: "Beginner Web Apps", description: "Getting Started through building", cost: "0.0", user_id: 1, created_at: "2015-08-19 01:35:54", updated_at: "2015-08-19 01:35:54", image: nil}
 ])
 Section.create!([
-  {id: 1, title: "New Beginnings", course_id: 1, created_at: "2015-08-19 01:38:05", updated_at: "2015-08-19 01:38:05", row_order: 0},
-  {id: 2, title: "Html 5", course_id: 3, created_at: "2015-08-19 01:38:05", updated_at: "2015-08-19 01:38:05", row_order: 0},
-  {id: 3, title: "CSS", course_id: 3, created_at: "2015-08-19 01:38:05", updated_at: "2015-08-19 01:38:05", row_order: 4194304},
+  {id: 1, title: "New Beginnings", course_id: 1, created_at: "2015-08-19 01:38:05", updated_at: "2015-08-19 01:38:05", row_order: 2796203},
+  {id: 2, title: "Html 5", course_id: 1, created_at: "2015-08-19 01:38:05", updated_at: "2015-08-19 01:38:05", row_order: -2796202},
+  {id: 3, title: "CSS", course_id: 1, created_at: "2015-08-19 01:38:05", updated_at: "2015-08-19 01:38:05", row_order: 4194304},
   {id: 4, title: "Section 0", course_id: 2, created_at: "2015-08-19 01:38:05", updated_at: "2015-08-19 01:38:05", row_order: 0},
   {id: 5, title: "Section 1", course_id: 2, created_at: "2015-08-19 01:38:05", updated_at: "2015-08-19 01:38:05", row_order: 4194304},
   {id: 6, title: "Section 2", course_id: 2, created_at: "2015-08-19 01:38:05", updated_at: "2015-08-19 01:38:05", row_order: 6291456},

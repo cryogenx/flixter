@@ -3,12 +3,14 @@ class Course < ActiveRecord::Base
 	has_many :sections
 	has_many :enrollments
 
+	mount_uploader :image_name, ImageUploader
+
 	validates :title, :presence => true
 	validates :description, :presence => true
 	validates :cost, :presence => true, :numericality => {:greater_than_equal_to => 0}
-	validates :image, :presence => true
+	#validates :image_name, :presence => true
 
-	mount_uploader :image, ImageUploader
+	
 
 	def free?
     cost.zero?

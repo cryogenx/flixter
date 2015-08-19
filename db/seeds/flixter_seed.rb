@@ -1,6 +1,6 @@
 Course.create!([
-  {id: 1, title: "Ruby 101", description: "Basic class to get into ruby", cost: "50.0", user_id: 1, created_at: "2015-08-19 01:35:54", updated_at: "2015-08-19 14:32:30", image: "iman2.jpg"},
-  {id: 2, title: "Beginner Web Apps", description: "Getting Started through building", cost: "0.0", user_id: 1, created_at: "2015-08-19 01:35:54", updated_at: "2015-08-19 01:35:54", image: "JLab.Website.Image_1.jpg"}
+  {id: 1, title: "Ruby 101", description: "Basic class to get into ruby", cost: "50.0", user_id: 1, created_at: "2015-08-19 01:35:54", updated_at: "2015-08-19 14:32:30", image_name: "iman2.jpg"},
+  {id: 2, title: "Beginner Web Apps", description: "Getting Started through building", cost: "0.0", user_id: 1, created_at: "2015-08-19 01:35:54", updated_at: "2015-08-19 01:35:54", image_name: "iman2.jpg"}
 ])
 Section.create!([
   {id: 1, title: "New Beginnings", course_id: 1, created_at: "2015-08-19 01:38:05", updated_at: "2015-08-19 01:38:05", row_order: 2796203},
